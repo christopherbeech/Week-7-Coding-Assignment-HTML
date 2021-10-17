@@ -4,79 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact-styles.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="container-nav">
+
+        <a href="/index.html"><p><i class="fas fa-paw fa-2x"></i><span>Paws Adoption Center</span></p></a>
 
         <nav>
             <a href="/index.html">Home</a>
             <a href="/about.html">About</a>
             <a href="/contact.html">Contact</a>
         </nav>
-        <br>
-        <br>
-
-        <div>
-            <h1>Contact Us</h1>
-        </div>
-
-        <div>
-            <img src="/images/contact.jpg" alt="Cute dog wearing a handkerchief" width="480" height="400px">
-        </div>
-
+        
     </header>
-    <main>
-        <br>
-        <br>
-        <h2>Our Hours</h2>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Mon: Closed</td>
-                </tr>
-                <tr>
-                    <td>Tues: 8am-5pm</td>
-                </tr>
-                <tr>
-                    <td>Wed: 8am-5pm</td>
-                </tr>
-                <tr>
-                    <td>Thurs: 8am-5pm</td>
-                </tr>
-                <tr>
-                    <td>Fri: 7am-8pm</td>
-                </tr>
-                <tr>
-                    <td>Sat: 7am-8pm</td>
-                </tr>
-                <tr>
-                    <td>Sun: Closed</td>
-                </tr>
-            </tbody>
-        </table>
-        <br>
-        <br>
+    <main class="container-main">
 
-        <h3>Office Number</h3>
-        <p>(623)123-4567</p>
-        <br>
+        <div class="hero-img">
+            <img src="/images/contact2.jpg" alt="Cute dog wearing a handkerchief">
+        </div>
+        
+        <h1>Contact Us</h1>
 
-        <h3>Our Email</h3>
-        <p>paws.doption@gmail.com</p>
-        <br>
-        <br>
+        <div class="list-info">
+            <h2>Our Hours</h2>
+            <table class="container-table">
+                <tbody>
+                    <tr>
+                        <td>Mon: Closed</td>
+                    </tr>
+                    <tr>
+                        <td>Tues: 8am-5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Wed: 8am-5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Thurs: 8am-5pm</td>
+                    </tr>
+                    <tr>
+                        <td>Fri: 7am-8pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sat: 7am-8pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sun: Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+       
+            <h2>Office Number</h2>
+            <p><span>(623)123-4567</span></p>
 
-        <div>
-            <h3>Subscribe to our Newsletter</h3>
+            <h2>Our Email</h2>
+            <p><span>paws.doption@gmail.com</span></p>
+        
+        </div>
+        <div id="container-email">
+            <h2>Subscribe to our Newsletter</h2>
             <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</P>
-            <form>
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" placeholder="Type your email...">
-                <input type="submit" value="Subscribe">
-            </form>
+            <div class="email-form">
+                <form>
+                    <input type="email" name="email" placeholder="Type your email...">
+                </form>
+                <button class="btn" type="submit">Subscribe</button>
+            </div>
         </div>
 
     </main>
+    <footer class="container-foot">
+
+        <a href="/index.html"><p><i class="fas fa-paw fa-2x"></i><span>Paws Adoption Center</span></p></a>
+
+        <div class="foot-icon">
+            <a href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
